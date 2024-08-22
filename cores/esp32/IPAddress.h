@@ -134,4 +134,6 @@ protected:
 };
 
 extern const IPAddress IN6ADDR_ANY;
+#ifndef INADDR_NONE
 extern const IPAddress INADDR_NONE;
+#endif

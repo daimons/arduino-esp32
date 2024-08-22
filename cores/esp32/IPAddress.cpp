@@ -411,4 +411,6 @@ esp_ip6_addr_type_t IPAddress::addr_type() const {
 }
 
 const IPAddress IN6ADDR_ANY(IPv6);
+#ifndef INADDR_NONE
 const IPAddress INADDR_NONE(0, 0, 0, 0);
+#endif
